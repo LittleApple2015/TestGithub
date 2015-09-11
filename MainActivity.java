@@ -40,4 +40,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
 }
